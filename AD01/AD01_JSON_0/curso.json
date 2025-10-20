@@ -1,0 +1,17 @@
+{"curso": [
+    {
+        "horas": 60,
+        "nombre": "Acceso a Datos",
+        "nota": 9.5
+    },
+    {
+        "horas": 45,
+        "nombre": "Entornos de Desarrollo",
+        "nota": 8.7
+    },
+    {
+        "horas": 80,
+        "nombre": "Programación",
+        "nota": 10
+    }
+]}
