@@ -6,7 +6,7 @@ import org.json.JSONObject;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class LeerJSON {
+public class LeerJSONCaracter {
 
     public static void main(String[] args) {
 
@@ -36,10 +36,10 @@ public class LeerJSON {
             }
 
         } catch (IOException e) {
-            System.out.println("Error al leer el archivo JSON.");
+            System.err.println("Error al leer el archivo JSON.");
             e.printStackTrace();
         } catch (Exception e) {
-            System.out.println("Error al procesar el contenido JSON.");
+            System.err.println("Error al procesar el contenido JSON.");
             e.printStackTrace();
         }
     }

@@ -34,7 +34,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.LeerJSONLinea">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.crearJSON.App" />
       <module name="AD01_JSON_0" />
@@ -48,8 +48,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeerJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leerJSON.LeerJSON" />
+    <configuration name="LeerJSONCaracter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leerJSON.LeerJSONCaracter" />
+      <module name="AD01_JSON_0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.leerJSON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeerJSONLinea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leerJSON.LeerJSONLinea" />
       <module name="AD01_JSON_0" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +76,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeerJSONLinea" />
+        <item itemvalue="Application.LeerJSONCaracter" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.LeerJSON" />
       </list>
     </recent_temporary>
   </component>
