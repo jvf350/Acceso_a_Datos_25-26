@@ -7,7 +7,7 @@
 
     <persistence-unit name="bibliotecaPU" transaction-type="RESOURCE_LOCAL">
 
-        <!-- Clases-Entidades a mapear -->
+        <!-- Registro de las Clases-Entidades a mapear -->
         <class>org.mapeo.biblioteca.model.Autor</class>
         <class>org.mapeo.biblioteca.model.Libro</class>
         <class>org.mapeo.biblioteca.model.Socio</class>
