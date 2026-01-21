@@ -17,6 +17,7 @@
         <hibernate.version>7.0.0.Final</hibernate.version>
         <mysql.version>8.0.33</mysql.version>
         <slf4j.version>2.0.17</slf4j.version>
+        <jpa.version>3.1.0</jpa.version>
     </properties>
 
     <dependencies>
@@ -24,7 +25,7 @@
         <dependency>
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
-            <version>3.1.0</version>
+            <version>${jpa.version}</version>
         </dependency>
         <!-- Hibernate ORM (implementación JPA) -->
         <dependency>
