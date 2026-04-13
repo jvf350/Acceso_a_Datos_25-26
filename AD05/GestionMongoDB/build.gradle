@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.iesalandalus'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'com.github.JRJimenezReyes:entrada:1.0.3'
+    // MogoDB Driver
+    implementation 'org.mongodb:mongodb-driver-sync:4.4.2'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.18.2'
+    implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.18.2'
+}
+
+test {
+    useJUnitPlatform()
+}
