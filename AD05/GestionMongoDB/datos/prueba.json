@@ -1,0 +1,4 @@
+[{"nombre": "Andres", "curso": "2DAW", "asignaturas": ["Java", "SQL2", "Python", "C++"], "edad": 46},
+{ "nombre": "Juan", "curso": "2DAM", "asignaturas": ["Java"]},
+{ "nombre": "Jose", "edad": 23, "curso": "2ASIR", "asignaturas": ["Java", "SQL", "Python"]}
+]
